@@ -29,17 +29,18 @@ client.on("messageCreate", message => {
 
 		message.channel.send({embeds:[embed], content: "Your wish is my command!"})
 	}
-	if(message.content === "build" {
+	if(message.content === "build") {
 		let embed = new Discord.MessageEmbed()
 		.setTitle("Build Information")
-		.addfield("Build Variant (Dev or Stable)", "Dev")
-		.addfield("Build Version", "1.0.1")
-		.addfield("Build Released", "14th January 2022")
-		.addfield("Build Changelog", "Added some smaller commands and fixed some things.")
+		.addField("Build Variant (Dev or Stable)", "Dev")
+		.addField("Build Version", "1.0.1")
+		.addField("Build Released", "14th January 2022")
+		.addField("Build Changelog", "Added some smaller commands and fixed some things.")
 		.setColor("RED")
 		.setTimestamp()
 
 		message.channel.send({embeds:[embed], content: "All you need to know is below!"})
+	}
 })
 
 client.login(process.env.token)
