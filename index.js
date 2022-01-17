@@ -35,9 +35,10 @@ client.on('message', message => {
 
 	if(command === 'ping'){
 		client.commands.get('ping').execute(message, args);
-	} else if (command == 'dingus') {
-		message.channel.send('dingus')
-	}
+	} else if (command == 'build') {
+		client.commands.get('build').execute(message, args);
+	}	else if (command == 'commands') {
+		client.commands.get('commands').execute(message, args);
 });
 
 client.login(process.env.token)
