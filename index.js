@@ -39,6 +39,7 @@ client.on('message', message => {
 		client.commands.get('build').execute(message, args);
 	}	else if (command == 'commands') {
 		client.commands.get('commands').execute(message, args);
+	}
 });
 
 client.login(process.env.token)
