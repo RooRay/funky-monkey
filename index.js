@@ -21,10 +21,6 @@ for(const file of commandFiles){
 	client.commands.set(command.name, command);
 }
 
-app.get("/", (req, res) => {
-  res.send ("Bot is working!");
-})
-
 const prefix = '%';
 
 client.on('message', message => {
