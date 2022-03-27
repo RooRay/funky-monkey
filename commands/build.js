@@ -6,13 +6,13 @@ module.exports = {
 	execute(message, args){
 		let embed = new Discord.MessageEmbed()
 		.setTitle("Build Information")
-		.addField("Build Variant (Dev or Stable)", "Dev")
-		.addField("Build Version", "1.0.2")
-		.addField("Build Released", "16th January 2022")
-		.addField("Build Changelog", "-Added a command handler and added commands to it.\n-Improved the ping command.")
-		.setColor("RED")
-		.setFooter("Developed by RooRay#0001")
+		.setColor(0xFF0000)
 		.setTimestamp()
+		.addFields({ name: "Build Variant (Dev or Stable)", value: "Dev" })
+		.addFields({ name: "Build Version", value: "1.0.2" })
+		.addFields({ name: "Build Released", value: "16th January 2022" })
+		.addFields({ name: "Build Changelog", value: "- Added a command handler to it\n- Improved the 	ping command" })
+		.setFooter({ text: "Developed by RooRay#0001" })
 
 		message.channel.send({embeds:[embed], content: "All you need to know is below!"})
 	}
