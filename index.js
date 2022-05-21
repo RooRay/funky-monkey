@@ -24,12 +24,13 @@ for (const file of commandFiles) {
 
 const prefix = "%";
   
-client.on('message', message => {
+client.on('messageCreate', message => {
 
     if (!message.content.startsWith(prefix) || message.author.bot) return;
 
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
+	if (!client.commands.get(command)) return message.channel.send("Invalid command there mate, check `%commands` to see what commands you can use.")
   client.commands.get(command)?.execute(message, args);
 
 });
