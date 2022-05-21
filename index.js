@@ -5,11 +5,11 @@ const app = express();
 const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]});
 
 app.listen (3000, () => { 
-    console.log("Bot is functioning and online!");
+    console.log("Booted and connected to Discord successfully!");
 });
 
 app.get("/", (req, res) => { 
-  res.send ("Hello! If you see this screen that means the bot is functioning! :D");
+  res.send ("Hey! If you see this, that means the bot is online and functioning normally!");
 });
   
 

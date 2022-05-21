@@ -8,7 +8,7 @@ module.exports = {
 		.setTitle("Bot Commands")
 		.addFields({ name: "Utility", value: "`Build`, `Ping`" })
 		.addFields({ name: "Others", value: "More commands and categories will be added in the future" })
-		.setColor(0xFF0000)
+		.setColor('RANDOM')
 		.setFooter("Developed by RooRay#0001")
 		.setTimestamp()
 
