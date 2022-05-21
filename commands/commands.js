@@ -7,8 +7,10 @@ module.exports = {
 		let embed = new Discord.MessageEmbed()
 		.setTitle("Bot Commands")
 		.addFields({ name: "Utility", value: "`Build`, `Ping`" })
-		.addFields({ name: "Others", value: "More commands and categories will be added in the future" })
-		.setColor('RANDOM')
+		.addFields({ name: "Fun", value: "`Riddy`" })
+		.addFields({ name: "Miscellaneous", value: "`Credits`" })
+		.addFields({ name: "Others", value: "More commands and categories are expected to be added in the near future" })
+		.setColor('LIGHT_GREY')
 		.setFooter("Developed by RooRay#0001")
 		.setTimestamp()
 
