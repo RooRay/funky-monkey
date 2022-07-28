@@ -4,14 +4,9 @@ const fs = require('fs');
 const app = express();
 const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]});
 
-app.listen (3000, () => { 
-    console.log("Booted and connected to Discord successfully!");
+client.once('ready', () => {
+    console.log(`Logged in to Discord successfully as ${client.user.username}#${client.user.discriminator}`);
 });
-
-app.get("/", (req, res) => { 
-  res.send ("Hey! If you see this, that means the bot is online and functioning normally!");
-});
-  
 
 client.commands = new Discord. Collection();
   

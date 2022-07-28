@@ -9,11 +9,11 @@ module.exports = {
 		.addFields({ name: "Utility", value: "`Build`, `Ping`" })
 		.addFields({ name: "Fun", value: "`Riddy`" })
 		.addFields({ name: "Miscellaneous", value: "`Credits`" })
-		.addFields({ name: "Others", value: "More commands and categories are expected to be added in the near future" })
+		.addFields({ name: "Others", value: "More commands and categories of commands should be added in the near future.™️" })
 		.setColor('LIGHT_GREY')
 		.setFooter("Developed by RooRay#0001")
 		.setTimestamp()
 
-		message.channel.send({embeds:[embed], content: "Here's all the commands!"})
+		message.channel.send({embeds:[embed], content: "Here are all the commands! Think you'll be able to remember them all? 😉"})
 	}
 }
