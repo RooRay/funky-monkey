@@ -14,6 +14,6 @@ module.exports = {
 		.setFooter("Developed by RooRay#0001")
 		.setTimestamp()
 
-		message.channel.send({embeds:[embed], content: "Here are all the commands! Think you'll be able to remember them all? 😉"})
+		message.channel.send({embeds:[embed], content: "Here are all the commands! Think you'll be able to remember them all? (￣y▽￣)╭"})
 	}
 }
