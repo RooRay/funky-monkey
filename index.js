@@ -25,7 +25,7 @@ client.on('messageCreate', message => {
 
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
-	if (!client.commands.get(command)) return message.channel.send("Invalid command there mate, check `%commands` to see what commands you can use.")
+	if (!client.commands.get(command)) return message.channel.send(":no_entry_sign: Sorry chap but that command's invalid, check `%commands` to see what commands this bot has.")
   client.commands.get(command)?.execute(message, args);
 
 });

@@ -13,6 +13,6 @@ module.exports = {
 		.setFooter("Developed by RooRay#0001")
 		.setTimestamp()
 
-		message.channel.send({embeds:[embed], content: "Thanks for me! All the people what helped make me a reality are below:"})
+		message.channel.send({embeds:[embed], content: "Thanks for using me! All the people what helped make me a reality are below. (づ￣ 3￣)づ"})
 	}
 }

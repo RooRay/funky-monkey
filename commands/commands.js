@@ -7,7 +7,7 @@ module.exports = {
 		let embed = new Discord.MessageEmbed()
 		.setTitle("Bot Commands")
 		.addFields({ name: "Utility", value: "`Build`, `Ping`" })
-		.addFields({ name: "Fun", value: "`Riddy`" })
+		.addFields({ name: "Fun", value: "Nothing anymore :(" })
 		.addFields({ name: "Miscellaneous", value: "`Credits`" })
 		.addFields({ name: "Others", value: "More commands and categories of commands should be added in the near future.™️" })
 		.setColor('LIGHT_GREY')
