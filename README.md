@@ -4,6 +4,8 @@ A small passion project made by RooRay with the help of others to showcase my le
 
 # Hosting
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/S4i5lA?referralCode=lEipkv)
+
 This bot natively supports being hosted on either Replit or Railway, it may work on others but hasn't been tested. Rough guide below:
 
 Use your respective platforms' environment variables feature, set the variable name to `token` and the value to your [Discord bots token](https://discordjs.guide/preparations/setting-up-a-bot-application.html#setting-up-a-bot-application).
