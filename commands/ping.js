@@ -6,6 +6,6 @@ module.exports = {
 	description: "ping command",
 	execute(message, args){
 		var ping = Date.now() - message.createdTimestamp + " ms";
-    message.channel.send("🏓 Pong!\nMy latency to Discord is `" + `${Date.now() - message.createdTimestamp}` + "`ms!\nTry beat me at ping pong, I dare you（￣︶￣）");
+    	message.channel.send("🏓 Pong!\nMy latency to Discord is `" + `${Date.now() - message.createdTimestamp}` + "`ms!");
 	}
 }

@@ -8,7 +8,7 @@ module.exports = {
 		.setTitle("Credits")
 		.addFields({ name: "Primary Developer", value: "RooRay (AKA RooRay#0001)" })
 		.addFields({ name: "Coding help", value: "Trains (AKA Ashish#0540)" })
-		.addFields({ name: "Testing", value: "RooRay (AKA RooRay#0001), Lewis (AKA ruisu#2755" })
+		.addFields({ name: "Testing", value: "RooRay (AKA RooRay#0001), Ruisu (AKA ruisu#2755" })
 		.setColor('YELLOW')
 		.setFooter("Developed by RooRay#0001")
 		.setTimestamp()

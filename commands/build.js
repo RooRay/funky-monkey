@@ -6,12 +6,12 @@ module.exports = {
 	execute(message, args){
 		let embed = new Discord.MessageEmbed()
 		.setTitle("Build Information")
-		.setColor('GREEN')
+		.setColor('YELLOW')
 		.setTimestamp()
 		.addFields({ name: "Build Variant (Dev or Stable)", value: "Dev" })
-		.addFields({ name: "Build Version", value: "1.0.7" })
-		.addFields({ name: "Build Released", value: "29th July 2022" })
-		.addFields({ name: "Build Changelog", value: "Fixed some small issues with text formatting, also removed riddy command as unsure if it would fit the bot." })
+		.addFields({ name: "Build Version", value: "1.0.8-beta" })
+		.addFields({ name: "Build Released", value: "16th November 2022" })
+		.addFields({ name: "Build Changelog", value: "- Some small wording and refactoring changes and other things." })
 		.setFooter({ text: "Developed by RooRay#0001" })
 
 		message.channel.send({embeds:[embed], content: "Here's all you need to know about this installation of the bot! (～￣▽￣)～"})
